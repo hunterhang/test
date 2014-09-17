@@ -5,7 +5,6 @@
 #include <pthread.h>  
 
 using namespace std;  
-
 struct{  
 	pthread_rwlock_t rwlock;  
 	int product;  
