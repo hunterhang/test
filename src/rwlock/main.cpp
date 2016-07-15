@@ -51,7 +51,7 @@ void * consume2(void *ptr)
 
 int main()  
 { 
-	// test by hunter vbranchv1 
+	// test by hunter vbranchv2
 
 	pthread_t tid1, tid2, tid3;  
 
