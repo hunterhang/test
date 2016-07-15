@@ -9,3 +9,4 @@ main : $(objects)
 	$(CXX) -c $< -o $@ $(CFLAGS) $(INCLUDE)
 clean:
 	-rm ./*.o main
+#test	
