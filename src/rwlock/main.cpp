@@ -51,7 +51,7 @@ void * consume2(void *ptr)
 
 int main()  
 { 
-	// test by hunter v1.0
+	// test by hunter vbranchv1 
 
 	pthread_t tid1, tid2, tid3;  
 
@@ -66,4 +66,5 @@ int main()
 	pthread_join(tid3, &retVal);  
 
 	return 0;  
+
 }
